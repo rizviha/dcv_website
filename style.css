@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'PT Sans', sans-serif;
+}
+  
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+}
+.landing{
+    
+    top: 0;
+    left: 0;
+  /*  note vh and vw switched  */
+    width: 100vh; 
+    height: 100vw;
+  /*    */
+    transform-origin: top left;
+    transform: rotate(-90deg) translateX(-100vh);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.landingContent {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    transform-origin: top left;
+    transform: rotate(90deg) translateY(-100vh);
+}
+.landingContent1 {
+    width: 100vw;
+    height: 100vh;
+    
+
+    scroll-snap-align: start;
+    overflow-y: hidden;
+    display: flex;
+    
+    background-image: url('./assets/background/1.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landingContent2 {
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+    overflow-y: hidden;
+    display: flex;
+    
+    background-image: url('./assets/background/2.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services{
+    top: 0;
+    left: 0;
+  /*  note vh and vw switched  */
+    width: 100vh; 
+    height: 100vw;
+  /*    */
+    transform-origin: top left;
+    transform: rotate(-90deg) translateX(-100vh);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.servicesContent {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    transform-origin: top left;
+    transform: rotate(90deg) translateY(-100vh);
+}
+.servicesContent1 {
+    width: 100vw;
+    height: 100vh;
+    
+
+  /*   scroll-snap-align: start; */
+    overflow-y: hidden;
+    display: flex;
+    
+    background-image: url('./assets/background/3.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: red;
+}
+.servicesContent2 {
+    width: 100vw;
+    height: 100vh;
+    
+
+  /*   scroll-snap-align: start; */
+    overflow-y: hidden;
+    display: flex;
+    
+    background-image: url('./assets/background/4.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+}
