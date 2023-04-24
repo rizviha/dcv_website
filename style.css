@@ -100,7 +100,6 @@
     background-image: url('./assets/background/3.JPG');
     background-repeat: no-repeat;
     background-size: cover;
-    background: red;
 }
 .servicesContent2 {
     width: 100vw;
@@ -114,5 +113,4 @@
     background-image: url('./assets/background/4.JPG');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: aquamarine;
 }
